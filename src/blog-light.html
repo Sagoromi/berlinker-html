@@ -1,0 +1,420 @@
+<!doctype html>
+<html class="bd-theme-light" lang="zxx">
+@@include('all-stylesheet.html')
+
+<body>
+
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+   <!-- preloader start -->
+      <div id="preloader">
+         <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+         </div>
+      </div>
+      <!-- preloader start -->
+
+   <!-- Backtotop start -->
+   <div class="backtotop-wrap cursor-pointer ">
+      <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+   </div>
+   <!-- Backtotop end -->
+
+   <!-- Offcanvas area start -->
+   <div class="fix">
+      <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__content">
+               <div class="offcanvas__top d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo">
+                     <a href="index.html">
+                        <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
+                     </a>
+                  </div>
+                  <div class="offcanvas__close">
+                     <button class="offcanvas-close-icon animation--flip">
+                        <span class="offcanvas-m-lines">
+                           <span class="offcanvas-m-line line--1"></span><span class="offcanvas-m-line line--2"></span><span class="offcanvas-m-line line--3"></span>
+                        </span>                              
+                     </button>
+                  </div>
+               </div>
+               <div class="mobile-menu fix"></div>
+               <div class="offcanvas__social">
+                  <h3 class="offcanvas__title mb-20">Subscribe & Follow</h3>
+                  <ul>
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                     <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+               </div>
+               <div class="offcanvas__btn">
+                  <div class="header__btn-wrap">
+                     <a class="sub__btn sm" href="login-light.html">Log In</a>
+                     <a class="bd-gradient-btn" href="contact-light.html">Get Started</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="offcanvas__overlay"></div>
+   <div class="offcanvas__overlay-white"></div>
+   <!-- Offcanvas area start -->
+
+   <!-- Header area start -->
+   <header>
+      <div id="header-sticky" class="header__area header-transparent">
+         <div class="container">
+            <div class="mega__menu-wrapper p-relative">
+               <div class="header__main">
+                  <div class="header__left">
+                     <div class="header__logo">
+                        <a href="index.html">
+                           <img src="assets/imgs/logo/logo-black.svg" alt="logo not found">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="header__middle">
+                     <div class="mean__menu-wrapper d-none d-lg-block">
+                        <div class="main-menu">
+                           <div class="main-menu">
+                              @@include('header-nav.html')
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="header__right">
+                     <div class="header__action d-flex align-items-center">
+                        <div class="header__btn-wrap d-none d-xl-inline-flex">
+                           <a class="sub__btn" href="login-light.html">Log In</a>
+                           <a class="bd-gradient-btn" href="contact-light.html">Get Started</a>
+                        </div>
+                        <div class="header__hamburger ml-20 d-xl-none">
+                           <div class="sidebar__toggle">
+                              <a class="bar-icon" href="avascript:void(0)">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </a>
+                           </div>
+                        </div>
+                          <!-- for wp -->
+                          <div class="header__hamburger ml-20 d-none">
+                          <button type="button" class="hamburger-btn offcanvas-open-btn">
+                             <span>01</span>
+                             <span>01</span>
+                             <span>01</span>
+                          </button>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- Header area end -->
+
+   <!-- Body glow start -->
+   <div class="glow__area">
+      <div class="body__color-glow"></div>
+      <div class="body__color-glow glow-2"></div>
+   </div>
+   <!-- Body glow end -->
+
+   <!-- Body main wrapper start -->
+   <main>
+
+      <!-- Breadcrumb area start  -->
+      <div class="breadcrumb__area breadcrumb-space theme-bg-1 valign p-relative z-index-11 fix">
+         <div class="breadcrumb__glow">
+            <div class="glow-1"></div>
+            <div class="glow-2"></div>
+         </div>
+         <div class="round__shape">
+            <img src="assets/imgs/shapes/cercle.png" alt="image not found">
+         </div>
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="col-xxl-6 col-xl-6 col-lg-6">
+                  <div class="breadcrumb__content">
+                     <div class="breadcrumb__menu mb-10">
+                        <nav>
+                           <ul>
+                              <li><span><a href="index.html">Home</a></span></li>
+                              <li><span>Blog</span></li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="breadcrumb__title-wrapper mb-20">
+                        <h2 class="breadcrumb__title">Read Our <span class="gradient-text-3">Latest Blogs</span></h2>
+                     </div>
+                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Breadcrumb area start  -->
+
+      <!-- Blog area start -->
+      <div class="blog__area section-space">
+         <div class="container">
+            <div class="row gy-5">
+               <div class="col-xxl-4 col-xl-4 col-lg-6">
+                  <article class="blog__grid-item wow fadeIn" data-wow-delay=".3s">
+                     <div class="blog__thumb-warapper p-relative mb-30">
+                        <div class="blog__grid-thumb">
+                           <a href="blog-details-light.html"><img src="assets/imgs/blog/blog-01.jpg"
+                                 alt="image not found"></a>
+                        </div>
+                        <div class="blog__thumb-inner">
+                           <a class="blog__thumb-overlay" href="blog-details-light.html"></a>
+                           <a class="blog__link" href="blog-details-light.html"><i class="fa-regular fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="blog__content">
+                        <h3 class="blog__title"><a href="blog-details-light.html">Navigating the Investment Landscape</a></h3>
+                        <div class="postbox__meta">
+                           <span><a href="#">By : Marilia Valse</a></span>
+                           <span>09 Aug 2023</span>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="col-xxl-4 col-xl-4 col-lg-6">
+                  <article class="blog__grid-item wow fadeIn" data-wow-delay=".4s">
+                     <div class="blog__thumb-warapper p-relative mb-30">
+                        <div class="blog__grid-thumb">
+                           <a href="blog-details-light.html"><img src="assets/imgs/blog/blog-02.jpg"
+                                 alt="image not found"></a>
+                        </div>
+                        <div class="blog__thumb-inner">
+                           <a class="blog__thumb-overlay" href="blog-details-light.html"></a>
+                           <a class="blog__link" href="blog-details-light.html"><i class="fa-regular fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="blog__content">
+                        <h3 class="blog__title"><a href="blog-details-light.html">Eco-Friendly Banking with Online
+                              Services</a></h3>
+                        <div class="postbox__meta">
+                           <span><a href="#">By : Jose K. Sanchez</a></span>
+                           <span>09 Aug 2023</span>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="col-xxl-4 col-xl-4 col-lg-6">
+                  <article class="blog__grid-item wow fadeIn" data-wow-delay=".5s">
+                     <div class="blog__thumb-warapper p-relative mb-30">
+                        <div class="blog__grid-thumb">
+                           <a href="blog-details-light.html"><img src="assets/imgs/blog/blog-03.jpg"
+                                 alt="image not found"></a>
+                        </div>
+                        <div class="blog__thumb-inner">
+                           <a class="blog__thumb-overlay" href="blog-details-light.html"></a>
+                           <a class="blog__link" href="blog-details-light.html"><i class="fa-regular fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="blog__content">
+                        <h3 class="blog__title"><a href="blog-details-light.html">Expert Perspectives on the Wealth
+                              Management</a></h3>
+                        <div class="postbox__meta">
+                           <span><a href="#">By : Lyle J. Chou</a></span>
+                           <span>09 Aug 2023</span>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="col-xxl-4 col-xl-4 col-lg-6">
+                  <article class="blog__grid-item wow fadeIn" data-wow-delay=".6s">
+                     <div class="blog__thumb-warapper p-relative mb-30">
+                        <div class="blog__grid-thumb">
+                           <a href="blog-details-light.html"><img src="assets/imgs/blog/blog-04.jpg"
+                                 alt="image not found"></a>
+                        </div>
+                        <div class="blog__thumb-inner">
+                           <a class="blog__thumb-overlay" href="blog-details-light.html"></a>
+                           <a class="blog__link" href="blog-details-light.html"><i class="fa-regular fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="blog__content">
+                        <h3 class="blog__title"><a href="blog-details-light.html">Online Banking for Small Businesses</a></h3>
+                        <div class="postbox__meta">
+                           <span><a href="#">By : Terry L. Taylor</a></span>
+                           <span>09 Aug 2023</span>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="col-xxl-4 col-xl-4 col-lg-6">
+                  <article class="blog__grid-item wow fadeIn" data-wow-delay=".7s">
+                     <div class="blog__thumb-warapper p-relative mb-30">
+                        <div class="blog__grid-thumb">
+                           <a href="blog-details-light.html"><img src="assets/imgs/blog/blog-05.jpg"
+                                 alt="image not found"></a>
+                        </div>
+                        <div class="blog__thumb-inner">
+                           <a class="blog__thumb-overlay" href="blog-details-light.html"></a>
+                           <a class="blog__link" href="blog-details-light.html"><i class="fa-regular fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="blog__content">
+                        <h3 class="blog__title"><a href="blog-details-light.html">Navigating the World of Virtual Banking</a>
+                        </h3>
+                        <div class="postbox__meta">
+                           <span><a href="#">By : Linda C. Hancock</a></span>
+                           <span>09 Aug 2023</span>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="col-xxl-4 col-xl-4 col-lg-6">
+                  <article class="blog__grid-item wow fadeIn" data-wow-delay=".8s">
+                     <div class="blog__thumb-warapper p-relative mb-30">
+                        <div class="blog__grid-thumb">
+                           <a href="blog-details-light.html"><img src="assets/imgs/blog/blog-03.jpg"
+                                 alt="image not found"></a>
+                        </div>
+                        <div class="blog__thumb-inner">
+                           <a class="blog__thumb-overlay" href="blog-details-light.html"></a>
+                           <a class="blog__link" href="blog-details-light.html"><i class="fa-regular fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="blog__content">
+                        <h3 class="blog__title"><a href="blog-details-light.html">The Ultimate Guide Online Banking
+                              Security</a></h3>
+                        <div class="postbox__meta">
+                           <span><a href="#">By : Edith A. Brunson</a></span>
+                           <span>09 Aug 2023</span>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xxl-12">
+                  <div class="btn__wrapper d-flex justify-content-center">
+                     <a class="bd-gradient-btn" href="#">Load More<span><i
+                              class="fa-regular fa-angle-right"></i></span></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Blog area start -->
+
+      <!-- Brand area start -->
+      @@include('brand-defult.html')
+      <!-- Brand area end -->
+
+   </main>
+   <!-- Body main wrapper end -->
+
+   <!-- Footer area start -->
+   <footer>
+      <section class="footer__area-common">
+         <div class="container">
+            <div class="footer__main">
+               <div class="footer__grid">
+                  <div class="footer__widget">
+                     <div class="footer__logo mb-25">
+                        <a href="index.html">
+                           <img src="assets/imgs/logo/logo-black.svg" alt="logo not found">
+                        </a>
+                     </div>
+                     <div class="footer__content">
+                        <p>Lorem ipsum dolor am oledop consectetur adipisc.</p>
+                        <div class="footer__social">
+                           <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                           <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer__widget">
+                     <div class="footer__widget-title">
+                        <h5>Use Cases</h5>
+                     </div>
+                     <div class="footer__link">
+                        <ul>
+                           <li><a href="#">SaaS</a></li>
+                           <li><a href="#">Online Business</a></li>
+                           <li><a href="#">Creators</a></li>
+                           <li><a href="#">E-Commerce</a></li>
+                           <li><a href="#">Agencies</a></li>
+                           <li><a href="#">Secure</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="footer__widget">
+                     <div class="footer__widget-title">
+                        <h5>Products</h5>
+                     </div>
+                     <div class="footer__link">
+                        <ul>
+                           <li><a href="#">Invoicing</a></li>
+                           <li><a href="#">Office Hours</a></li>
+                           <li><a href="#">Explore More</a></li>
+                           <li><a href="#">Loan Type</a></li>
+                           <li><a href="#">Calculate</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="footer__widget">
+                     <div class="footer__widget-title">
+                        <h5>Newsletter</h5>
+                     </div>
+                     <div class="footer__newsletter">
+                        <p>For latest Update subscribe us!</p>
+                        <form action="assets/mail.php" method="POST">
+                           <div class="footer__newsletter-from mb-25">
+                              <div class="footer__newsletter-input p-relative">
+                                 <input type="text" placeholder="Enter Email">
+                                 <button class="footer__round-btn" type="submit"><i
+                                       class="fa-regular fa-angle-right"></i></button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="footer__short-info">
+                        <div class="info-icon">
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                        </div>
+                        <div class="info-content">
+                            <p><a href="mailto:hello@finwise.com">hello@finwise.com</a></p>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__bottom">
+               <div class="footer__copyright">
+                  <p>Copyright © 2023 <a href="#">Finwise</a></p>
+               </div>
+               <div class="footer__conditions">
+                  <ul>
+                     <li><a href="privacy-policy-light.html">Privacy Policy</a></li>
+                     <li><a href="contact-light.html">Contact Us</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+   </footer>
+   <!-- Footer area end -->
+
+   <!-- JS here -->
+   @@include('all-script.html')
+</body>
+
+</html>
