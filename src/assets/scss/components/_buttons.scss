@@ -73,7 +73,7 @@
     z-index: 5;
     background-position: 100% 100%;
     background-size: 300% 100%;
-    background-image: var(--bd-gradient-1);
+    background-image: linear-gradient(90deg, rgb(251, 25, 113), rgb(255, 104, 23), rgb(255, 104, 23), rgb(251, 25, 113));
     &:focus {
         color: var(--bd-common-white);
     }
@@ -88,6 +88,7 @@
         background-position: 0 100%;
     }
 }
+
 // Gradient button size
 .bd-gradient-btn {
     &.btn-xs {

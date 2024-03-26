@@ -4,6 +4,10 @@
 /*  7.5 Brand css
 /*----------------------------------------*/
 // Brand style
+.brand-main-wrapper {
+	display: grid;
+	gap: 50px 0;
+}
 .brand-grid {
 	display: flex;
 	align-items: center;

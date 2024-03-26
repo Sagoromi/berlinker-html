@@ -11,10 +11,12 @@
 	position: relative;
 	z-index: 10;
 }
-
-.title {
-	font-size: 36px;
-  }
-  .description {
-	color: var(--bd-common-white);
-  }
+.newsletter-content {
+	.title {
+		font-size: 36px;
+	}
+	.description {
+		color: var(--bd-common-white);
+	}
+	
+}
