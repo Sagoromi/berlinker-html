@@ -1,134 +1,136 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-   @@include('all-stylesheet.html')
-   <body>
-      
-      <!--[if lte IE 9]>
+@@include('all-stylesheet.html')
+
+<body>
+
+   <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
 
-      <!-- preloader start -->
-      <div id="preloader">
-         <div class="sk-three-bounce">
-            <div class="sk-child sk-bounce1"></div>
-            <div class="sk-child sk-bounce2"></div>
-            <div class="sk-child sk-bounce3"></div>
+   <!-- preloader start -->
+   <div id="preloader">
+      <div class="sk-three-bounce">
+         <div class="sk-child sk-bounce1"></div>
+         <div class="sk-child sk-bounce2"></div>
+         <div class="sk-child sk-bounce3"></div>
+      </div>
+   </div>
+   <!-- preloader start -->
+
+   <!-- Backtotop start -->
+   <div class="backtotop-wrap cursor-pointer">
+      <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+   </div>
+   <!-- Backtotop end -->
+
+   <!-- Offcanvas area start -->
+   <div class="fix">
+      <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__content">
+               <div class="offcanvas__top d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo">
+                     <a href="index.html">
+                        <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
+                     </a>
+                  </div>
+                  <div class="offcanvas__close">
+                     <button class="offcanvas-close-icon animation--flip">
+                        <span class="offcanvas-m-lines">
+                           <span class="offcanvas-m-line line--1"></span><span
+                              class="offcanvas-m-line line--2"></span><span class="offcanvas-m-line line--3"></span>
+                        </span>
+                     </button>
+                  </div>
+               </div>
+               <div class="mobile-menu fix"></div>
+               <div class="offcanvas__social">
+                  <h3 class="offcanvas__title mb-20">Subscribe & Follow</h3>
+                  <ul>
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                     <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+               </div>
+               <div class="offcanvas__btn">
+                  <div class="header__btn-wrap">
+                     <a class="sub__btn sm" href="login.html">Log In</a>
+                     <a class="bd-gradient-btn" href="contact.html">Get Started</a>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
-      <!-- preloader start -->
+   </div>
+   <div class="offcanvas__overlay"></div>
+   <div class="offcanvas__overlay-white"></div>
+   <!-- Offcanvas area start -->
 
-      <!-- Backtotop start -->
-      <div class="backtotop-wrap cursor-pointer">
-         <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-         </svg>
-     </div>
-      <!-- Backtotop end -->
-
-      <!-- Offcanvas area start -->
-       <div class="fix">
-         <div class="offcanvas__area">
-            <div class="offcanvas__wrapper">
-               <div class="offcanvas__content">
-                  <div class="offcanvas__top d-flex justify-content-between align-items-center">
-                     <div class="offcanvas__logo">
+   <!-- Header area start -->
+   <header>
+      <div id="header-sticky" class="header__area header-common">
+         <div class="container">
+            <div class="mega__menu-wrapper p-relative">
+               <div class="header__main">
+                  <div class="header__left">
+                     <div class="header__logo">
                         <a href="index.html">
-                           <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
+                           <img class="logo__white" src="assets/imgs/logo/logo-white.svg" alt="logo not found">
                         </a>
                      </div>
-                     <div class="offcanvas__close">
-                        <button class="offcanvas-close-icon animation--flip">
-                           <span class="offcanvas-m-lines">
-                              <span class="offcanvas-m-line line--1"></span><span class="offcanvas-m-line line--2"></span><span class="offcanvas-m-line line--3"></span>
-                           </span>                              
-                        </button>
-                     </div>
                   </div>
-                  <div class="mobile-menu fix"></div>
-                  <div class="offcanvas__social">
-                     <h3 class="offcanvas__title mb-20">Subscribe & Follow</h3>
-                     <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                     </ul>
-                  </div>
-                  <div class="offcanvas__btn">
-                     <div class="header__btn-wrap">
-                        <a class="sub__btn sm" href="login.html">Log In</a>
-                        <a class="bd-gradient-btn" href="contact.html">Get Started</a>
-                    </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="offcanvas__overlay"></div>
-      <div class="offcanvas__overlay-white"></div>
-      <!-- Offcanvas area start -->
-
-      <!-- Header area start -->
-      <header>
-         <div id="header-sticky" class="header__area header-common">
-            <div class="container">
-               <div class="mega__menu-wrapper p-relative">
-                  <div class="header__main">
-                     <div class="header__left">
-                        <div class="header__logo">
-                           <a href="index.html">
-                              <img class="logo__white" src="assets/imgs/logo/logo-white.svg" alt="logo not found">
-                           </a>
+                  <div class="header__middle">
+                     <div class="mean__menu-wrapper d-none d-lg-block">
+                        <div class="main-menu">
+                           @@include('header-nav.html')
                         </div>
                      </div>
-                     <div class="header__middle">
-                        <div class="mean__menu-wrapper d-none d-lg-block">
-                           <div class="main-menu">
-                              @@include('header-nav.html')
+                  </div>
+                  <div class="header__right">
+                     <div class="header__action d-flex align-items-center">
+                        <div class="header__btn-wrap d-none d-xl-inline-flex">
+                           <a class="sub__btn" href="login.html">Log In</a>
+                           <a class="bd-gradient-btn" href="contact.html">Get Started</a>
+                        </div>
+                        <div class="header__hamburger ml-20 d-xl-none">
+                           <div class="sidebar__toggle">
+                              <a class="bar-icon" href="avascript:void(0)">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </a>
                            </div>
                         </div>
-                     </div>
-                     <div class="header__right">
-                        <div class="header__action d-flex align-items-center">
-                           <div class="header__btn-wrap d-none d-xl-inline-flex">
-                              <a class="sub__btn" href="login.html">Log In</a>
-                              <a class="bd-gradient-btn" href="contact.html">Get Started</a>
-                           </div>
-                           <div class="header__hamburger ml-20 d-xl-none">
-                              <div class="sidebar__toggle">
-                                 <a class="bar-icon" href="avascript:void(0)">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                 </a>
-                              </div>
-                           </div>
-                           <!-- for wp -->
-                           <div class="header__hamburger ml-20 d-none">
-                              <button type="button" class="hamburger-btn offcanvas-open-btn">
-                                 <span>01</span>
-                                 <span>01</span>
-                                 <span>01</span>
-                              </button>
-                           </div>
+                        <!-- for wp -->
+                        <div class="header__hamburger ml-20 d-none">
+                           <button type="button" class="hamburger-btn offcanvas-open-btn">
+                              <span>01</span>
+                              <span>01</span>
+                              <span>01</span>
+                           </button>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </header>
-      <!-- Header area end -->
-
-      <!-- Body glow start -->
-      <div class="glow__area">
-         <div class="body__color-glow"></div>
-         <div class="body__color-glow glow-2"></div>
       </div>
-      <!-- Body glow end -->
+   </header>
+   <!-- Header area end -->
 
-      <!-- Body main wrapper start -->
-      <main>
+   <!-- Body glow start -->
+   <div class="glow__area">
+      <div class="body__color-glow"></div>
+      <div class="body__color-glow glow-2"></div>
+   </div>
+   <!-- Body glow end -->
+
+   <!-- Body main wrapper start -->
+   <main>
 
       <!-- Banner area start -->
       <section class="banner__area theme-bg-1 fix">
@@ -139,8 +141,10 @@
                      <div class="banner__content wow fadeIn" data-wow-delay=".3s">
                         <span class="banner__sbutitle uppercase">Explore finwise now</span>
                         <h2>Manage Your <span class="gradient-text-1">Finance</span> with Finwise.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et mass mi. Aliquam in hendrerit urna.</p>
-                        <a class="bd-gradient-btn" href="contact.html">Get Started<span><i class="fa-regular fa-angle-right"></i></span></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et mass mi. Aliquam in hendrerit
+                           urna.</p>
+                        <a class="bd-gradient-btn" href="contact.html">Get Started<span><i
+                                 class="fa-regular fa-angle-right"></i></span></a>
                      </div>
                   </div>
                </div>
@@ -159,7 +163,7 @@
          </div>
       </section>
       <!-- Banner area end -->
-   
+
       <!-- why choose area start -->
       <section class="why__choose-area theme-bg-1 section-space">
          <div class="container">
@@ -173,7 +177,8 @@
                </div>
                <div class="col-xxl-6 col-xl-6 col-lg-6">
                   <div class="btn-wrapper d-flex justify-content-lg-end">
-                     <a class="bd-gradient-btn" href="about.html">Know More<span><i class="fa-regular fa-angle-right"></i></span></a>
+                     <a class="bd-gradient-btn" href="about.html">Know More<span><i
+                              class="fa-regular fa-angle-right"></i></span></a>
                   </div>
                </div>
             </div>
@@ -185,9 +190,11 @@
                            <div class="why__choose-item wow fadeIn" data-wow-delay=".3s">
                               <div class="why-choose__content">
                                  <div class="why__choose-icon">
-                                    <span><img src="assets/imgs/why-choose/why-choose-01.png" alt="image not found"></span>
+                                    <span><img src="assets/imgs/why-choose/why-choose-01.png"
+                                          alt="image not found"></span>
                                     <h3><a href="#">Securely deposit</a></h3>
-                                    <p>Banks is typically ge revenue by the charging interest in loansAliquiam in hendrerit urna amlet.</p>
+                                    <p>Banks is typically ge revenue by the charging interest in loansAliquiam in
+                                       hendrerit urna amlet.</p>
                                  </div>
                               </div>
                            </div>
@@ -196,9 +203,11 @@
                            <div class="why__choose-item is-brick-red wow fadeIn" data-wow-delay=".5s">
                               <div class="why-choose__content">
                                  <div class="why__choose-icon">
-                                    <span><img src="assets/imgs/why-choose/why-choose-02.png" alt="image not found"></span>
+                                    <span><img src="assets/imgs/why-choose/why-choose-02.png"
+                                          alt="image not found"></span>
                                     <h3><a href="#">Banking Security</a></h3>
-                                    <p>Banks is typically ge revenue by the charging interest in loansAliquiam in hendrerit urna amlet.</p>
+                                    <p>Banks is typically ge revenue by the charging interest in loansAliquiam in
+                                       hendrerit urna amlet.</p>
                                  </div>
                               </div>
                            </div>
@@ -207,9 +216,11 @@
                            <div class="why__choose-item is-mainly-blue wow fadeIn" data-wow-delay=".7s">
                               <div class="why-choose__content">
                                  <div class="why__choose-icon">
-                                    <span><img src="assets/imgs/why-choose/why-choose-03.png" alt="image not found"></span>
+                                    <span><img src="assets/imgs/why-choose/why-choose-03.png"
+                                          alt="image not found"></span>
                                     <h3><a href="#">Best support</a></h3>
-                                    <p>Banks is typically ge revenue by the charging interest in loansAliquiam in hendrerit urna amlet.</p>
+                                    <p>Banks is typically ge revenue by the charging interest in loansAliquiam in
+                                       hendrerit urna amlet.</p>
                                  </div>
                               </div>
                            </div>
@@ -225,7 +236,7 @@
          </div>
       </section>
       <!-- why choose area end -->
-      
+
       <!-- Features area start -->
       <section class="features__area features-bg section-space-top">
          <div class="container">
@@ -234,7 +245,8 @@
                   <div class="section__title-wrapper text-center wow fadeInUp" data-wow-delay=".3s">
                      <span class="section__subtitle uppercase mb-20">Our Features</span>
                      <h2 class="section__title mb-20">Best Online Banking</h2>
-                     <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.</p>
+                     <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                        hendrerit.</p>
                   </div>
                </div>
             </div>
@@ -253,8 +265,10 @@
                                  <div class="features__content">
                                     <h2>1</h2>
                                     <h3>Account Access</h3>
-                                    <p>Create instant, scheduled and recurrEng payments easily Banks typically grevenu by the charging interest in loansAliquIam in hendrerit urna.</p>
-                                    <a class="text__link" href="about.html">Explore More<span><i class="fa-regular fa-angle-right"></i></span></a>
+                                    <p>Create instant, scheduled and recurrEng payments easily Banks typically grevenu
+                                       by the charging interest in loansAliquIam in hendrerit urna.</p>
+                                    <a class="text__link" href="about.html">Explore More<span><i
+                                             class="fa-regular fa-angle-right"></i></span></a>
                                  </div>
                               </div>
                            </div>
@@ -270,8 +284,10 @@
                                  <div class="features__content">
                                     <h2>2</h2>
                                     <h3>Fund Transfers</h3>
-                                    <p>Create instant, scheduled and recurrEng payments easily Banks typically grevenu by the charging interest in loansAliquIam in hendrerit urna..</p>
-                                    <a class="text__link" href="about.html">Explore More<span><i class="fa-regular fa-angle-right"></i></span></a>
+                                    <p>Create instant, scheduled and recurrEng payments easily Banks typically grevenu
+                                       by the charging interest in loansAliquIam in hendrerit urna..</p>
+                                    <a class="text__link" href="about.html">Explore More<span><i
+                                             class="fa-regular fa-angle-right"></i></span></a>
                                  </div>
                               </div>
                            </div>
@@ -287,8 +303,10 @@
                                  <div class="features__content">
                                     <h2>3</h2>
                                     <h3>Bill Payment</h3>
-                                    <p>Create instant, scheduled and recurrEng payments easily Banks typically grevenu by the charging interest in loansAliquIam in hendrerit urna..</p>
-                                    <a class="text__link" href="about.html">Explore More<span><i class="fa-regular fa-angle-right"></i></span></a>
+                                    <p>Create instant, scheduled and recurrEng payments easily Banks typically grevenu
+                                       by the charging interest in loansAliquIam in hendrerit urna..</p>
+                                    <a class="text__link" href="about.html">Explore More<span><i
+                                             class="fa-regular fa-angle-right"></i></span></a>
                                  </div>
                               </div>
                            </div>
@@ -306,11 +324,12 @@
          <div class="container">
             <div class="row gy-50 align-items-center">
                <div class="col-xxl-6 col-xl-6 col-lg-6">
-                  <div class="benefits__content-wrapper wow fadeInLeft animated"  data-wow-delay="0.3s">
+                  <div class="benefits__content-wrapper wow fadeInLeft animated" data-wow-delay="0.3s">
                      <div class="section__title-wrapper mb-35">
                         <span class="section__subtitle uppercase mb-20">Your benefits</span>
                         <h2 class="section__title mb-20">Power your business potential Now!</h2>
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut massa mi. Aliquam in hendrerit urna.</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut massa mi. Aliquam in
+                           hendrerit urna.</p>
                      </div>
                      <div class="benefits__info-wrapper mb-50">
                         <div class="benefits__info">
@@ -330,7 +349,8 @@
                            </div>
                         </div>
                      </div>
-                     <a class="bd-gradient-btn" href="about.html">Know More<span><i class="fa-regular fa-angle-right"></i></span></a>
+                     <a class="bd-gradient-btn" href="about.html">Know More<span><i
+                              class="fa-regular fa-angle-right"></i></span></a>
                   </div>
                </div>
                <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -364,10 +384,12 @@
                      <div class="section__title-wrapper mb-35">
                         <span class="section__subtitle uppercase mb-20">Secure Transaction</span>
                         <h2 class="section__title mb-20">Take Extra-Secure Transactions</h2>
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut massa mi. Aliquam in hendrerit urna. Pellentesque sit am sapi fringilla, mattis ligula consectetur.</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut massa mi. Aliquam in
+                           hendrerit urna. Pellentesque sit am sapi fringilla, mattis ligula consectetur.</p>
                      </div>
                      <div class="btn__wrapper">
-                        <a class="bd-gradient-btn" href="contact.html">Know More<span><i class="fa-regular fa-angle-right"></i></span></a>
+                        <a class="bd-gradient-btn" href="contact.html">Know More<span><i
+                                 class="fa-regular fa-angle-right"></i></span></a>
                      </div>
                   </div>
                </div>
@@ -384,7 +406,8 @@
                   <div class="section__title-wrapper text-center section__title-space">
                      <span class="section__subtitle uppercase mb-20">Testimonials</span>
                      <h2 class="section__title mb-20">Our User Testimonial</h2>
-                     <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.</p>
+                     <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                        hendrerit.</p>
                   </div>
                </div>
             </div>
@@ -398,12 +421,16 @@
                                  <div class="testimonial__content">
                                     <div class="testimonial__qote mb-40">
                                        <span>
-                                          <svg width="94" height="72" viewBox="0 0 94 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                             <path opacity="0.1" d="M8.39995 65.6249C3.14995 59.8499 -5.18453e-05 53.5499 -5.09273e-05 43.0499C-4.93209e-05 24.6749 13.125 8.3999 31.5 -9.69686e-05L36.225 6.82489C18.9 16.2749 15.2249 28.3499 14.1749 36.2249C16.7999 34.6499 20.475 34.1249 24.15 34.6499C33.6 35.6999 40.9499 43.0499 40.9499 53.0249C40.9499 57.7499 38.8499 62.4749 35.6999 66.1499C32.0249 69.8249 27.8249 71.3999 22.5749 71.3999C16.7999 71.3999 11.5499 68.7749 8.39995 65.6249ZM60.8999 65.6249C55.6499 59.8499 52.5 53.5499 52.5 43.0499C52.5 24.6749 65.625 8.3999 84 -9.23789e-05L88.725 6.8249C71.4 16.2749 67.725 28.3499 66.675 36.2249C69.3 34.6499 72.975 34.1249 76.65 34.6499C86.1 35.6999 93.45 43.5749 93.45 53.0249C93.45 57.7499 91.35 62.4749 88.2 66.1499C84.525 69.8249 80.325 71.3999 75.0749 71.3999C69.2999 71.3999 64.0499 68.7749 60.8999 65.6249Z" fill="white"/>
-                                             </svg>                              
+                                          <svg width="94" height="72" viewBox="0 0 94 72" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path opacity="0.1"
+                                                d="M8.39995 65.6249C3.14995 59.8499 -5.18453e-05 53.5499 -5.09273e-05 43.0499C-4.93209e-05 24.6749 13.125 8.3999 31.5 -9.69686e-05L36.225 6.82489C18.9 16.2749 15.2249 28.3499 14.1749 36.2249C16.7999 34.6499 20.475 34.1249 24.15 34.6499C33.6 35.6999 40.9499 43.0499 40.9499 53.0249C40.9499 57.7499 38.8499 62.4749 35.6999 66.1499C32.0249 69.8249 27.8249 71.3999 22.5749 71.3999C16.7999 71.3999 11.5499 68.7749 8.39995 65.6249ZM60.8999 65.6249C55.6499 59.8499 52.5 53.5499 52.5 43.0499C52.5 24.6749 65.625 8.3999 84 -9.23789e-05L88.725 6.8249C71.4 16.2749 67.725 28.3499 66.675 36.2249C69.3 34.6499 72.975 34.1249 76.65 34.6499C86.1 35.6999 93.45 43.5749 93.45 53.0249C93.45 57.7499 91.35 62.4749 88.2 66.1499C84.525 69.8249 80.325 71.3999 75.0749 71.3999C69.2999 71.3999 64.0499 68.7749 60.8999 65.6249Z"
+                                                fill="white" />
+                                          </svg>
                                        </span>
                                     </div>
-                                    <p>The staff at Finwise Bank are very friendly and helpful and always call me by my first name when I walk in or come through the drive through. Great staff!</p>
+                                    <p>The staff at Finwise Bank are very friendly and helpful and always call me by my
+                                       first name when I walk in or come through the drive through. Great staff!</p>
                                     <div class="testimonial__meta-box">
                                        <div class="feedback__avatar">
                                           <h3>Maral Arman</h3>
@@ -430,12 +457,16 @@
                                  <div class="testimonial__content">
                                     <div class="testimonial__qote mb-45">
                                        <span>
-                                          <svg width="94" height="72" viewBox="0 0 94 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                             <path opacity="0.1" d="M8.39995 65.6249C3.14995 59.8499 -5.18453e-05 53.5499 -5.09273e-05 43.0499C-4.93209e-05 24.6749 13.125 8.3999 31.5 -9.69686e-05L36.225 6.82489C18.9 16.2749 15.2249 28.3499 14.1749 36.2249C16.7999 34.6499 20.475 34.1249 24.15 34.6499C33.6 35.6999 40.9499 43.0499 40.9499 53.0249C40.9499 57.7499 38.8499 62.4749 35.6999 66.1499C32.0249 69.8249 27.8249 71.3999 22.5749 71.3999C16.7999 71.3999 11.5499 68.7749 8.39995 65.6249ZM60.8999 65.6249C55.6499 59.8499 52.5 53.5499 52.5 43.0499C52.5 24.6749 65.625 8.3999 84 -9.23789e-05L88.725 6.8249C71.4 16.2749 67.725 28.3499 66.675 36.2249C69.3 34.6499 72.975 34.1249 76.65 34.6499C86.1 35.6999 93.45 43.5749 93.45 53.0249C93.45 57.7499 91.35 62.4749 88.2 66.1499C84.525 69.8249 80.325 71.3999 75.0749 71.3999C69.2999 71.3999 64.0499 68.7749 60.8999 65.6249Z" fill="white"/>
-                                             </svg>                              
+                                          <svg width="94" height="72" viewBox="0 0 94 72" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path opacity="0.1"
+                                                d="M8.39995 65.6249C3.14995 59.8499 -5.18453e-05 53.5499 -5.09273e-05 43.0499C-4.93209e-05 24.6749 13.125 8.3999 31.5 -9.69686e-05L36.225 6.82489C18.9 16.2749 15.2249 28.3499 14.1749 36.2249C16.7999 34.6499 20.475 34.1249 24.15 34.6499C33.6 35.6999 40.9499 43.0499 40.9499 53.0249C40.9499 57.7499 38.8499 62.4749 35.6999 66.1499C32.0249 69.8249 27.8249 71.3999 22.5749 71.3999C16.7999 71.3999 11.5499 68.7749 8.39995 65.6249ZM60.8999 65.6249C55.6499 59.8499 52.5 53.5499 52.5 43.0499C52.5 24.6749 65.625 8.3999 84 -9.23789e-05L88.725 6.8249C71.4 16.2749 67.725 28.3499 66.675 36.2249C69.3 34.6499 72.975 34.1249 76.65 34.6499C86.1 35.6999 93.45 43.5749 93.45 53.0249C93.45 57.7499 91.35 62.4749 88.2 66.1499C84.525 69.8249 80.325 71.3999 75.0749 71.3999C69.2999 71.3999 64.0499 68.7749 60.8999 65.6249Z"
+                                                fill="white" />
+                                          </svg>
                                        </span>
                                     </div>
-                                    <p>The staff at Finwise Bank are very friendly and helpful and always call me by my first name when I walk in or come through the drive through. Great staff!</p>
+                                    <p>The staff at Finwise Bank are very friendly and helpful and always call me by my
+                                       first name when I walk in or come through the drive through. Great staff!</p>
                                     <div class="testimonial__meta-box">
                                        <div class="feedback__avatar">
                                           <h3>Maral Arman</h3>
@@ -462,12 +493,16 @@
                                  <div class="testimonial__content">
                                     <div class="testimonial__qote mb-45">
                                        <span>
-                                          <svg width="94" height="72" viewBox="0 0 94 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                             <path opacity="0.1" d="M8.39995 65.6249C3.14995 59.8499 -5.18453e-05 53.5499 -5.09273e-05 43.0499C-4.93209e-05 24.6749 13.125 8.3999 31.5 -9.69686e-05L36.225 6.82489C18.9 16.2749 15.2249 28.3499 14.1749 36.2249C16.7999 34.6499 20.475 34.1249 24.15 34.6499C33.6 35.6999 40.9499 43.0499 40.9499 53.0249C40.9499 57.7499 38.8499 62.4749 35.6999 66.1499C32.0249 69.8249 27.8249 71.3999 22.5749 71.3999C16.7999 71.3999 11.5499 68.7749 8.39995 65.6249ZM60.8999 65.6249C55.6499 59.8499 52.5 53.5499 52.5 43.0499C52.5 24.6749 65.625 8.3999 84 -9.23789e-05L88.725 6.8249C71.4 16.2749 67.725 28.3499 66.675 36.2249C69.3 34.6499 72.975 34.1249 76.65 34.6499C86.1 35.6999 93.45 43.5749 93.45 53.0249C93.45 57.7499 91.35 62.4749 88.2 66.1499C84.525 69.8249 80.325 71.3999 75.0749 71.3999C69.2999 71.3999 64.0499 68.7749 60.8999 65.6249Z" fill="white"/>
-                                             </svg>                              
+                                          <svg width="94" height="72" viewBox="0 0 94 72" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path opacity="0.1"
+                                                d="M8.39995 65.6249C3.14995 59.8499 -5.18453e-05 53.5499 -5.09273e-05 43.0499C-4.93209e-05 24.6749 13.125 8.3999 31.5 -9.69686e-05L36.225 6.82489C18.9 16.2749 15.2249 28.3499 14.1749 36.2249C16.7999 34.6499 20.475 34.1249 24.15 34.6499C33.6 35.6999 40.9499 43.0499 40.9499 53.0249C40.9499 57.7499 38.8499 62.4749 35.6999 66.1499C32.0249 69.8249 27.8249 71.3999 22.5749 71.3999C16.7999 71.3999 11.5499 68.7749 8.39995 65.6249ZM60.8999 65.6249C55.6499 59.8499 52.5 53.5499 52.5 43.0499C52.5 24.6749 65.625 8.3999 84 -9.23789e-05L88.725 6.8249C71.4 16.2749 67.725 28.3499 66.675 36.2249C69.3 34.6499 72.975 34.1249 76.65 34.6499C86.1 35.6999 93.45 43.5749 93.45 53.0249C93.45 57.7499 91.35 62.4749 88.2 66.1499C84.525 69.8249 80.325 71.3999 75.0749 71.3999C69.2999 71.3999 64.0499 68.7749 60.8999 65.6249Z"
+                                                fill="white" />
+                                          </svg>
                                        </span>
                                     </div>
-                                    <p>The staff at Finwise Bank are very friendly and helpful and always call me by my first name when I walk in or come through the drive through. Great staff!</p>
+                                    <p>The staff at Finwise Bank are very friendly and helpful and always call me by my
+                                       first name when I walk in or come through the drive through. Great staff!</p>
                                     <div class="testimonial__meta-box">
                                        <div class="feedback__avatar">
                                           <h3>Maral Arman</h3>
@@ -509,9 +544,11 @@
                      <div class="section__title-wrapper">
                         <span class="section__subtitle uppercase mb-20">Read faq</span>
                         <h2 class="section__title mb-20">Frequently Asked Questions</h2>
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisci elit Ut massa mi. Aliquam in hendrerit.</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisci elit Ut massa mi. Aliquam in
+                           hendrerit.</p>
                         <div class="btn__wrapper">
-                           <a class="bd-gradient-btn" href="contact.html">Know More<span><i class="fa-regular fa-angle-right"></i></span></a>
+                           <a class="bd-gradient-btn" href="contact.html">Know More<span><i
+                                    class="fa-regular fa-angle-right"></i></span></a>
                         </div>
                      </div>
                   </div>
@@ -520,54 +557,70 @@
                   <div class="bd__faq">
                      <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              How do I create an account with Finwise?
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
-                            </div>
-                          </div>
+                           <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 How do I create an account with Finwise?
+                              </button>
+                           </h2>
+                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                    ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
+                              </div>
+                           </div>
                         </div>
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              How to send money online?
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
-                            </div>
-                          </div>
+                           <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 How to send money online?
+                              </button>
+                           </h2>
+                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                    ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
+                              </div>
+                           </div>
                         </div>
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Is my money safe with Finwise?
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
-                            </div>
-                          </div>
+                           <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Is my money safe with Finwise?
+                              </button>
+                           </h2>
+                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                    ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
+                              </div>
+                           </div>
                         </div>
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              How to send money online?
-                            </button>
-                          </h2>
-                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
-                            </div>
-                          </div>
+                           <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                 How to send money online?
+                              </button>
+                           </h2>
+                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                    ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
+                              </div>
+                           </div>
                         </div>
-                      </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -575,146 +628,229 @@
       </section>
       <!-- FAQ area end -->
 
-      <!-- Account open area start -->
-      <section class="account__open-area p-relative">
+      <!-- brand area start -->
+      <div class="section brand-area section-space">
          <div class="container">
             <div class="row">
-               <div class="col-xxl-12">
-                  <div class="account__open-box bounceInUp" data-wow-delay=".8s">
-                     <div class="bubble__1 wow fadeInup"></div>
-                     <div class="bubble__2"></div>
-                     <div class="bubble__3"></div>
-                     <div class="row">
-                        <div class="col-xxl-6 col-xl-6 col-lg-6">
-                           <div class="account__open-thumb">
-                              <img src="assets/imgs/bg/account-bg.png" alt="image not found">
-                           </div>
-                        </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6">
-                           <div class="section__title-wrapper is-white">
-                              <h2 class="section__title mb-40">Let’s Get Started With Finwise!</h2>
-                              <a class="bd-gradient-btn-white" href="register.html">Open Account<span><i class="fa-regular fa-angle-right"></i></span></a>
-                           </div>
-                        </div>
+               <div class="brand-grid">
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-01.svg" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-02.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-03.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-04.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-05.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-06.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+               </div>
+               <div class="brand-grid">
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-07.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-08.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-09.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-10.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+               </div>
+               <div class="brand-grid">
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-11.png" alt="brand thumb not found">
+                     </div>
+                  </div>
+                  <div class="brand-item">
+                     <div class="thumb">
+                        <img src="assets/imgs/brand/brand-12.png" alt="brand thumb not found">
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </section>
-      <!-- Account open area end -->
+      </div>
+      <!-- brand area end -->
 
-      </main>
-      <!-- Body main wrapper end -->
-      
-      <!-- Footer area start -->
-      <footer>
-         <div class="footer__area theme-bg-1">
-            <div class="container">
-               <div class="footer__main-1">
-                  <div class="row gy-50">
-                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-12">
-                        <div class="footer__widget-1-1">
-                              <div class="footer__logo mb-30">
-                                 <img src="assets/imgs/logo/logo-white.svg" alt="image bnot found">
+      <!-- newsletter area start -->
+      <section class="newsletter-area">
+         <div class="container">
+            <div class="newsletter-wrapper" data-background="assets/imgs/shapes/newsletter-mask.png">
+               <div class="newsletter-content">
+                  <h2 class="title">Liberate your time for concentrating on other significant endeavors.</h2>
+                  <p class="description">Join us today and experience the power of AI-powered text creation for
+                     yourself!
+                  </p>
+               </div>
+               <div class="button">
+                  <a class="bd-gradient-btn" href="contact.html">Know More<span><i
+                           class="fa-regular fa-angle-right"></i></span></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- newsletter area end -->
+
+   </main>
+   <!-- Body main wrapper end -->
+
+   <!-- Footer area start -->
+   <footer>
+      <div class="footer__area footer-primary pt-50 footer-bg p-relative z-index-1 include-bg"
+         data-background="assets/imgs/footer/shapes/footer-ring.svg">
+         <div class="container">
+            <div class="footer__main mb-50">
+               <div class="row gy-50">
+                  <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-6">
+                     <div class="footer__widget-2-1">
+                        <div class="footer__logo mb-30">
+                           <a href="index.html">
+                              <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
+                           </a>
+                        </div>
+                        <div class="footer__content">
+                           <p>Outsource your HR functions to industry-specialized HR.</p>
+                           <h6 class="title mb-20">Subscribe Now</h6>
+                           <div class="footer__newsletter-from mb-30">
+                              <div class="footer__newsletter-input p-relative">
+                                 <input type="text" placeholder="Enter Email">
+                                 <button class="footer__round-btn" type="submit">Submit</i></button>
                               </div>
-                              <div class="footer__content">
-                                 <p>Lorem ipsum dolor sit am oledop consectetur adipiscing elit Ut et massa mi. Aliquam</p>
-                                 <div class="footer__social">
-                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                                 </div>
-                              </div>
-                        </div>
-                     </div>
-                     <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="footer__widget-1-2">
-                           <div class="footer__widget-title">
-                              <h5>Products</h5>
-                           </div>
-                           <div class="footer__link">
-                              <ul>
-                                 <li><a href="#">About</a></li>
-                                 <li><a href="#">Careers</a></li>
-                                 <li><a href="#">Terms</a></li>
-                                 <li><a href="#">News</a></li>
-                                 <li><a href="#">Upcoming</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-4">
-                        <div class="footer__widget-1-3">
-                           <div class="footer__widget-title">
-                              <h5>Company</h5>
-                           </div>
-                           <div class="footer__link">
-                              <ul>
-                                 <li><a href="#">Invoicing</a></li>
-                                 <li><a href="#">Office Hours</a></li>
-                                 <li><a href="#">Explore More</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-4">
-                        <div class="footer__widget-1-4">
-                           <div class="footer__widget-title">
-                              <h5>Resources</h5>
-                           </div>
-                           <div class="footer__link">
-                              <ul>
-                                 <li><a href="#">SaaS</a></li>
-                                 <li><a href="#">Online Business</a></li>
-                                 <li><a href="#">Creators</a></li>
-                                 <li><a href="#">Tutorials</a></li>
-                                 <li><a href="#">Agencies</a></li>
-                                 <li><a href="#">Secure</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer__widget-1-5 justify-content-lg-end">
-                           <div class="footer__widget-title">
-                              <h5>Download App</h5>
-                           </div>
-                           <div class="footer__app">
-                              <a class="footer__app-item" href="#">
-                                 <img src="assets/imgs/app/play-store.png" alt="image not found">
-                              </a>
-                              <a class="footer__app-item" href="#">
-                                 <img src="assets/imgs/app/apple-store.png" alt="image not found">
-                              </a>
                            </div>
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="row">
-                  <div class="col-12">
-                     <div class="footer__bottom">
-                        <div class="footer__copyright">
-                           <p>Copyright © 2023 <a href="#">Finwise</a></p>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                     <div class="footer__widget-2-2">
+                        <div class="footer__widget-title">
+                           <h5>Company</h5>
                         </div>
-                        <div class="footer__conditions">
+                        <div class="footer__link">
                            <ul>
-                              <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                              <li><a href="contact.html">Contact Us</a></li>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Contact Us</a></li>
+                              <li><a href="#">FAQ</a></li>
+                              <li><a href="#">Blog</a></li>
+                              <li><a href="#">Services</a></li>
                            </ul>
                         </div>
                      </div>
                   </div>
+                  <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-6">
+                     <div class="footer__widget-2-3">
+                        <div class="footer__widget-title">
+                           <h5>Support</h5>
+                        </div>
+                        <div class="footer__link">
+                           <ul>
+                              <li><a href="#">Community</a></li>
+                              <li><a href="#">Help Center</a></li>
+                              <li><a href="#">Careers</a></li>
+                              <li><a href="#">News</a></li>
+                              <li><a href="#">Upcoming</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div class="footer__widget-2-4 justify-content-lg-end">
+                        <div class="footer__widget-title">
+                           <h5>Need Help?</h5>
+                        </div>
+                        <div class="footer__contact">
+                           <div class="footer__info">
+                              <div class="footer__info-item">
+                                 <div class="footer__info-icon">
+                                    <span><i class="fa-solid fa-envelope"></i></span>
+                                 </div>
+                                 <div class="footer__info-text">
+                                    <span><a href="mailto:hello@finwise.com">hello@finwise.com</a></span>
+                                 </div>
+                              </div>
+                              <div class="footer__info-item">
+                                 <div class="footer__info-icon">
+                                    <span><i class="fa-solid fa-phone"></i></span>
+                                 </div>
+                                 <div class="footer__info-text">
+                                    <span><a href="tel:510652-7401">(510) 652-7401</a></span>
+                                 </div>
+                              </div>
+                              <div class="footer__info-item">
+                                 <div class="footer__info-icon">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                 </div>
+                                 <div class="footer__info-text">
+                                    <p><a target="_blank" href="https://www.google.com/maps">5095 Telegraph Ave,Oakland,
+                                          California-94609, USA</a></p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="footer__bottom">
+                     <div class="footer__copyright">
+                        <p>copyright 2024 All rights reserved by<a href="#">Berliner Bank</a></p>
+                     </div>
+                     <div class="footer__social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-      </footer>
-      <!-- Footer area end -->
+         <div class="footer-shapes">
+            <div class="shape-one">
+               <img src="assets/imgs/shapes/footer/shape-01.png" alt="shape not found">
+            </div>
+            <div class="shape-two">
+               <img src="assets/imgs/shapes/footer/shape-02.png" alt="shape not found">
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Footer area end -->
 
-      <!-- JS here -->
-      @@include('all-script.html')
-   </body>
+   <!-- JS here -->
+   @@include('all-script.html')
+</body>
+
 </html>
-

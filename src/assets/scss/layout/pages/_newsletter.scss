@@ -1,0 +1,20 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.23 Newsletter css
+/*----------------------------------------*/
+
+.newsletter-wrapper {
+	padding: 50px 50px;
+	background-color: #6C3BEB;
+	border-radius: 10px;
+	position: relative;
+	z-index: 10;
+}
+
+.title {
+	font-size: 36px;
+  }
+  .description {
+	color: var(--bd-common-white);
+  }

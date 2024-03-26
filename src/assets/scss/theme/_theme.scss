@@ -142,7 +142,7 @@
 
 // Google Fonts
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
 
 *{
 	margin: 0;
@@ -308,7 +308,7 @@ button {
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	object-fit: cover;
 }
@@ -409,7 +409,7 @@ i[class^="flaticon-"] {
 	.container-sm,
 	.container-xl,
 	.container-xxl {
-		max-width: 1250px;
+		max-width: 1350px;
 	}
 }
 .custom-container {
