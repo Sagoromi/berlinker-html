@@ -3,13 +3,18 @@
 /*----------------------------------------*/
 /*  7.23 Newsletter css
 /*----------------------------------------*/
-
 .newsletter-wrapper {
 	padding: 50px 50px;
 	background-color: #6C3BEB;
 	border-radius: 10px;
 	position: relative;
 	z-index: 10;
+}
+.newsletter-grid {
+	display: grid;
+	grid-template-columns: 50% auto;
+	place-items: center;
+	justify-content: space-between;
 }
 .newsletter-content {
 	.title {
@@ -18,5 +23,4 @@
 	.description {
 		color: var(--bd-common-white);
 	}
-	
 }

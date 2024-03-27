@@ -11,12 +11,14 @@
 }
 .bd__faq {
   .accordion-button {
-    font-size: 24px;
-    color: var(--bd-text-body);
-    background: transparent;
-    padding: 35px 100px 30px 100px;
-    padding-right: 40px;
+    font-size: 20px;
+    background: var(--bd-common-white);
+    padding: 25px 30px 25px;
+    padding-right: 100px;
     display: inline-block;
+    color: var(--bd-heading-primary);
+    font-weight: var(--bd-fw-sbold);
+    @include border-radius(10px);
     @media #{$sm, $md} {
       font-size: 20px;
       padding: 30px 30px 24px 85px;
@@ -30,34 +32,29 @@
       box-shadow: none;
     }
     &:not(.collapsed) {
-      border-radius: 6px 6px 0 0;
-      background: rgba(255, 255, 255, 0.05);
-      @include light {
-        background: var(--bd-bg-10);
-      }
-      color: var(--bd-text-primary);
-      box-shadow: none;
+      background: var(--bd-common-white);
+      box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
       &::after {
         border-color: transparent;
         background: var(--bd-theme-primary);
         color: var(--bd-common-white);
-        content: "\f106";
+        content: "\f068";
       }
     }
     &::after {
       position: absolute;
-      left: 40px;
-      content: "\f107";
+      right: 30px;
+      content: "\2b";
       background-image: none;
       font-family: var(--bd-ff-fontawesome);
       font-size: 18px;
       font-weight: 400;
-      height: 46px;
-      width: 46px;
-      border: 1px solid var(--bd-border-primary);
-      line-height: 46px;
+      height: 40px;
+      width: 40px;
+      background: #E8E8E8;
+      line-height: 40px;
       text-align: center;
-      color: var(--bd-text-primary);
+      color: #1C1C1C;
       top: 50%;
       @include border-radius(50%);
       @extend %translateY1_2;
@@ -70,24 +67,11 @@
     }
   }
   .accordion-body {
-    padding-left: 100px;
-    padding-top: 0;
-    padding-bottom: 35px;
-    padding-right: 40px;
-    background: rgba(255, 255, 255, 0.05);
-    @include light {
-      background: var(--bd-bg-10);
-    }
-    border-radius: 0 0 6px 6px;
-    @media #{$sm, $md} {
-      padding-left: 30px;
-      padding-bottom: 30px;
-      padding-right: 30px;
-    }
-    @media #{$xs} {
-      padding-left: 25px;
-      padding-right: 25px;
-    }
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    background: var(--bd-common-white);
+    border-radius: 0 0 10px 10px;
     > P {
       margin-bottom: 0;
     }
@@ -96,53 +80,13 @@
     border: 0;
     border: 0;
     background: transparent;
+    box-shadow: 3px 4px 20px rgba(255, 95, 33, 0.08);
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
     &:not(:first-of-type) {
-      border-top: 0;
-      border-bottom: 1px solid var(--bd-border-primary) !important;
+      border: 0;
     }
   }
 }
-// FAQ style 2
-.faq__style-2 {
-  .bd__faq {
-    .accordion-button {
-      padding: 35px 100px;
-      padding-left: 35px;
-      @media #{$xxs} {
-        padding: 25px 75px;
-        padding-left: 25px;
-      }
-      &:not(.collapsed) {
-        @include light {
-          background: rgba(238, 238, 238, 1);
-        }
-      }
-      &::after {
-        left: auto;
-        right: 40px;
-        top: 50%;
-        @extend %translateY1_2;
-        @media #{$xxs} {
-          right: 25px;
-        }
-      }
-      span {
-        color: var(--bd-theme-primary);
-        padding-right: 3px;
-        display: inline-block;
-      }
-    }
-    .accordion-body {
-      padding-left: 40px;
-      padding-right: 100px;
-      @include light {
-        background: rgba(238, 238, 238, 1);
-      }
-      @media #{$xxs} {
-        padding: 25px;
-      }
-    }
-  }
-}
-
 

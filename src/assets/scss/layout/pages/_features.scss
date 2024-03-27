@@ -3,10 +3,33 @@
 /*----------------------------------------*/
 /*  7.15 Features css
 /*----------------------------------------*/
+.features__shapes {
+	.shape-one {
+		max-width: 142px;
+		position: absolute;
+		top: 152px;
+		right: -19px;
+	}
+}
 .features__item {
 	background: rgba(96, 137, 249, 0.15);
 	border-radius: 23px;
 	padding: 30px 30px 30px;
+	&.is-warning {
+		background: rgba(255, 143, 0, 0.1);
+	}
+	&.is-info {
+		background: rgba(64, 217, 189, 0.15);
+	}
+	&.is-success {
+		background: rgba(129, 239, 113, 0.1);
+	}
+	&.is-purplish {
+		background: rgba(108, 59, 235, 0.1);
+	}
+	&.is-danger {
+		background: rgba(239, 71, 111, 0.1);
+	}
 	.icon {
 		margin-bottom: 30px;
 		span {

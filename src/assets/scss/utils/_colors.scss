@@ -10,17 +10,18 @@ $colors: (
     "secondary": rgba(255, 255, 255, 1),
   ),
   theme: (
-    "primary": #089EFF,
-    "secondary": #FB5141,
+    "primary": #6C3BEB,
+    "secondary": #FF8F00,
   ),
   heading: (
     "primary": #0B2A46,
     "secondary": #021D35,
-  ),
-  text: (
+),
+text: (
     "body": #7C7E82,
     "primary": #FFFFFF,
     "secondary": #111111,
+    "paragraph": rgba(28, 28, 30, 0.6),
   ),
   bg: (
     "1": rgba(14, 10, 36, 1),

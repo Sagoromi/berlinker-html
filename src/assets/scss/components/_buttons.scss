@@ -5,51 +5,43 @@
 /*----------------------------------------*/
 
 // Sub button
-.sub__btn {
-    height: 45px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px;
-    color: var(--bd-text-primary);
-    text-transform: capitalize;
-    padding: 0 25px;
-    font-weight: var(--bd-fw-medium);
-    position: relative;
-    z-index: 5;
-    background: linear-gradient(90deg, rgba(87, 63, 234, 0.2) 0%, rgba(161, 145, 255, 0.2) 100%);
-    font-size: 16px;
-    &:before {
-        position: absolute;
-        content: "";
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, rgba(87, 63, 234, 0.20) 0%, rgba(161, 145, 255, 0.20) 100%);
-        border-radius: 40px;
-        z-index: -1;
-        opacity: 0;
-        -webkit-transition: all 0.5s ease-out 0s;
-        -moz-transition: all 0.5s ease-out 0s;
-        -ms-transition: all 0.5s ease-out 0s;
-        -o-transition: all 0.5s ease-out 0s;
-    }
-
+.bd-secondary-btn{
+	height: 45px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	color: var(--bd-text-primary);
+	text-transform: capitalize;
+	padding: 0 30px;
+	font-weight: var(--bd-fw-medium);
+	position: relative;
+	z-index: 5;
+	background: var(--bd-theme-secondary);
+	font-size: 16px;
+	gap: 5px;
     &:hover {
         color: var(--bd-common-white);
-
-        &::before {
-            opacity: 1;
-            background: linear-gradient(90deg, rgba(87, 63, 234, 0.20) 0%, rgba(161, 145, 255, 1) 100%);
-        }
     }
-    &.sm {
-        height: 60px;
-        padding: 0 35px;
-        @include light {
-            color: var(--bd-common-white);
-        }
+}
+// Sub button
+.bd-primary-btn {
+	height: 45px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	color: var(--bd-text-primary);
+	text-transform: capitalize;
+	padding: 0 30px;
+	font-weight: var(--bd-fw-medium);
+	position: relative;
+	z-index: 5;
+	background: var(--bd-theme-primary);
+	font-size: 16px;
+	gap: 5px;
+    &:hover {
+        color: var(--bd-common-white);
     }
 }
 // Gradient button
@@ -58,12 +50,12 @@
     color: var(--bd-common-white);
     text-transform: capitalize;
     font-weight: var(--bd-fw-medium);
-    padding: 0px 35px;
+    padding: 0px 25px;
     @include inline-flex();
     justify-content: center;
     align-items: center;
     gap: 6px;
-    height: 60px;
+    height: 50px;
     @include border-radius(30px);
     position: relative;
     -webkit-transition: all 0.5s ease-out 0s;
@@ -235,16 +227,13 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    background: rgb(33, 33, 33);
+    background: var(--bd-common-white);
+    color: var(--bd-theme-primary);
     font-size: 20px;
-    @include border-radius(50%);
-    span {
-        i {
-            color: var(--bd-common-white);
-        }
-    }
+     @include border-radius(50%);
     &:hover {
         background-color: var(--bd-theme-primary);
+        color: var(--bd-common-white);
     }
 }
 

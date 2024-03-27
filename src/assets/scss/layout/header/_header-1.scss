@@ -3,6 +3,11 @@
 /*----------------------------------------*/
 /*  3.2 Header Style 1
 /*----------------------------------------*/
+.quick-use {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
 .header-4 {
 	background: var(--bd-common-white);
 	padding: 0 40px;

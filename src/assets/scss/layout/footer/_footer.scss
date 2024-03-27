@@ -3,15 +3,21 @@
 /*----------------------------------------*/
 /*  6.0 Footer Style
 /*----------------------------------------*/
-.shape-one {
-	position: absolute;
-	top: 70px;
-	left: 50px;
+.footer__area.footer-primary {
+	position: relative;
+	margin-top: -200px;
 }
-.shape-two {
-	position: absolute;
-	right: 17px;
-	bottom: 10px;
+.footer-shapes {
+	.shape-one {
+		position: absolute;
+		top: 70px;
+		left: 50px;
+	}
+	.shape-two {
+		position: absolute;
+		right: 17px;
+		bottom: 10px;
+	}
 }
 .footer-primary {
 	padding-top: 290px;

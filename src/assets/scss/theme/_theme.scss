@@ -169,7 +169,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 h1,
 h2,
 h3,
@@ -251,13 +250,13 @@ ul {
 	margin: 0px;
 	padding: 0px;
 }
+
 p {
 	font-size: var(--bd-fs-p);
 	font-weight: var(--bd-fw-normal);
-	color: var(--bd-text-body);
+	color: var(--bd-text-paragraph);
 	margin-bottom: 15px;
-	line-height: 26px;
-	letter-spacing: -0.2px;
+	line-height: 31px;
 }
 
 a {
