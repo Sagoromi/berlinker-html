@@ -7,7 +7,7 @@ $colors: (
   ),
   body: (
     "primary": #FDFBF4,
-    "secondary": rgba(255, 255, 255, 1),
+    "secondary": rgba(255, 255, 255, 1),  
   ),
   theme: (
     "primary": #6C3BEB,
@@ -16,20 +16,18 @@ $colors: (
   heading: (
     "primary": #0B2A46,
     "secondary": #021D35,
-),
-text: (
+  ),
+  text: (
     "body": #7C7E82,
     "primary": #FFFFFF,
     "secondary": #111111,
     "paragraph": rgba(28, 28, 30, 0.6),
   ),
-  bg: (
-    "1": rgba(14, 10, 36, 1),
-  ),
   border: (
     "primary": rgba(255, 255, 255, 0.079),
   ),
 );
+// variable
 $white : #fff;
 $black : #000;
 $theme-primary : #089EFF;

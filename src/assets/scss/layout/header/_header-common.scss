@@ -123,10 +123,3 @@
 .header-common {
 	background: var(--bd-bg-1);
 }
-// Header 3
-.header-3 {
-	@media #{$xs ,$sm, $md} {
-		padding: 18px 0;
-	}
-}
-
