@@ -4,7 +4,7 @@
 /*  2.2 Buttons
 /*----------------------------------------*/
 
-// Sub button
+// Secondary button
 .bd-secondary-btn{
 	height: 45px;
 	display: inline-flex;
@@ -20,11 +20,15 @@
 	background: var(--bd-theme-secondary);
 	font-size: 16px;
 	gap: 5px;
+    span {
+        position: relative;
+        top: -2px;
+    }
     &:hover {
         color: var(--bd-common-white);
     }
 }
-// Sub button
+// primary button
 .bd-primary-btn {
 	height: 45px;
 	display: inline-flex;
@@ -40,6 +44,10 @@
 	background: var(--bd-theme-primary);
 	font-size: 16px;
 	gap: 5px;
+    span {
+        position: relative;
+        top: -2px;
+    }
     &:hover {
         color: var(--bd-common-white);
     }
@@ -81,57 +89,6 @@
     }
 }
 
-// Gradient button size
-.bd-gradient-btn {
-    &.btn-xs {
-        height: 50px;
-        padding: 0 25px;
-	}
-	&.btn-sm {
-        height: 55px;
-        padding: 0 30px;
-	}
-    &.btn-lg {
-        height: 65px;
-        border-radius: 50px;
-        padding: 0 40px;
-	}
-    &.btn-xl {
-        height: 75px;
-        border-radius: 50px;
-        padding: 0 45px;
-	}
-	&.btn-xxl {
-        height: 85px;
-        border-radius: 50px;
-        padding: 0 60px;
-	}
-}
-.bd-gradient-btn-white {
-	font-size: 16px;
-    display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: var(--bd-fw-medium);
-	height: 60px;
-	@include border-radius(30px);
-	position: relative;
-	overflow: hidden;
-    padding: 0 35px;
-	text-transform: capitalize;
-    color: var(--bd-heading-primary);
-	background-color: var(--bd-common-white);
-	z-index: 5;
-    span {
-        i {
-            margin-left: 8px;
-        }
-    }
-	&:hover {
-		background-color: var(--bd-heading-primary);
-		color: var(--bd-common-white);
-	}
-}
 // Common button
 .bd-btn {
 	font-size: 16px;
@@ -234,87 +191,5 @@
     &:hover {
         background-color: var(--bd-theme-primary);
         color: var(--bd-common-white);
-    }
-}
-
-// Login btn
-.login__gamil-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    height: 60px;
-    background: rgb(66, 133, 244);
-    @include border-radius(6px);
-    width: 100%;
-    font-size: 16px;
-    color: var(--bd-common-white);
-    font-weight: var(--bd-fw-medium);
-    text-transform: capitalize;
-}
-
-// Pricing btn
-.pricing__btn{
-    font-size: 16px;
-    color: var(--bd-text-primary);
-	font-weight: var(--bd-fw-medium);
-    padding: 0px 40px;
-	@include inline-flex();
-	align-items: center;
-    justify-content: center;
-    gap: 10px;
-	height: 60px;
-    @extend %bd-transition-3;
-    position: relative;
-    z-index: 5;
-    &::before,
-    &:after {
-        content: "";
-        position: absolute;
-        border-radius: 99px;
-    }
-    &:hover {
-        color: var(--bd-common-white);
-    }
-}
-.pricing__btn{
-    font-size: 16px;
-    color: var(--bd-text-primary);
-	font-weight: var(--bd-fw-medium);
-    padding: 0px 40px;
-	@include inline-flex();
-    @include border-radius(30px);
-	align-items: center;
-    justify-content: center;
-    gap: 8px;
-	height: 60px;
-    @extend %bd-transition-3;
-    position: relative;
-    z-index: 5;
-    border: 2px solid var(--bd-theme-primary);
-    &:hover {
-        background-color: var(--bd-theme-primary);
-    }
-}
-.pricing__btn-white {
-    font-size: 16px;
-    color: var(--bd-common-white);
-	font-weight: var(--bd-fw-medium);
-    text-transform: capitalize;
-    padding: 0px 40px;
-	@include inline-flex();
-    @include border-radius(30px);
-	align-items: center;
-    justify-content: center;
-    gap: 8px;
-	height: 60px;
-    @extend %bd-transition-3;
-    position: relative;
-    z-index: 5;
-    border: 2px solid var(--bd-common-white);
-    &:hover {
-        color: var(--bd-heading-primary);
-        border-color: transparent;
-        background-color: var(--bd-common-white);
     }
 }

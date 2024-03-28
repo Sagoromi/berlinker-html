@@ -616,122 +616,7 @@
   animated_swiper(sliderActive1, sliderInit1);
   }
 
-  var testimonial = new Swiper(".testimonial__active", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    roundLengths: true,
-    autoplay: {
-        delay: 3000,
-    },
-    navigation: {
-        nextEl: ".testimonial__button-next",
-        prevEl: ".testimonial__button-prev",
-    },
-    pagination: {
-        el: ".bd-swiper-dot",
-        clickable: true,
-    },
-  });
-
-  $(".testimonial-slide").slick({
-    speed: 300,
-    autoplay: true,
-    arrows: false,
-    prevArrow: '<button type="button" class="slick-prev"><i class="fa-regular fa-chevron-left"></i></button>',
-    nextArrow: '<button type="button" class="slick-next"><i class="fa-regular fa-chevron-right"></i></button>',
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1400,
-            slidesToShow: 2,
-        },
-        {
-            breakpoint: 1200,
-            slidesToShow: 2,
-        },
-        {
-            breakpoint: 992,
-            slidesToShow: 1,
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-            },
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                centerMode: false,
-                slidesToShow: 1,
-            },
-        },
-    ],
-  });
-
-  /*======================================
-  Feedback activation js
-  ========================================*/
-  $(".feedback__active").slick({
-    focusOnSelect: true,
-    pauseOnHover: false,
-    centerMode: true,
-    autoplay: 3000,
-    dots: true,
-    centerPadding: "0px",
-    infinite: true,
-    prevArrow: '<button type="button" class="slick-prev feedback__button-prev"><i class="fa-regular fa-chevron-left"></i></button>',
-    nextArrow: '<button type="button" class="slick-next feedback__button-next"><i class="fa-regular fa-chevron-right"></i></button>',
-    appendArrows: $(".feedback__navigation"),
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1400,
-            slidesToShow: 1,
-        },
-        {
-            breakpoint: 1200,
-            slidesToShow: 2,
-        },
-        {
-            breakpoint: 992,
-            slidesToShow: 1,
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-            },
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                centerMode: false,
-                slidesToShow: 1,
-            },
-        },
-    ],
-  });
-
-  var feedbackTwo = new Swiper(".feedback__active-2", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: false,
-    roundLengths: true,
-    fadeEffect: { crossFade: true },
-    effect: "cards",
-    grabCursor: true,
-    fadeEffect: {
-        crossFade: true
-    },
-    navigation: {
-        nextEl: ".feedback__button-next-2",
-        prevEl: ".feedback__button-prev-2",
-    },
-  });
-
-  var feedbackThree = new Swiper(".feedback__active-3", {
+  var feedbackThree = new Swiper(".testimonial__active-3", {
     slidesPerView: 3,
     spaceBetween: 30,
     loop: true,
@@ -740,12 +625,8 @@
         delay: 3000,
     },
     navigation: {
-        nextEl: ".feedback__button-prev",
-        prevEl: ".feedback__button-next",
-    },
-    pagination: {
-        el: ".bd-swiper-dot",
-        clickable: true,
+        nextEl: ".testimonial__button-prev",
+        prevEl: ".testimonial__button-next",
     },
     breakpoints: {
         1200: {
@@ -763,72 +644,6 @@
         0: {
             slidesPerView: 1,
         },
-    },
-  });
-
-  var feedbackFour = new Swiper(".feedback__active-4", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    roundLengths: true,
-    autoplay: {
-        delay: 3000,
-    },
-    navigation: {
-        nextEl: ".feedback__button-prev-4",
-        prevEl: ".feedback__button-next-4",
-    },
-    pagination: {
-        el: ".bd-swiper-dot",
-        clickable: true,
-    },
-  });
-
-  var feedbackFive = new Swiper(".feedback__active-5", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    roundLengths: true,
-    autoplay: {
-        delay: 3000,
-    },
-    navigation: {
-        nextEl: ".feedback__button-prev-5",
-        prevEl: ".feedback__button-next-5",
-    },
-    pagination: {
-        el: ".bd-swiper-dot",
-        clickable: true,
-    },
-  });
-
-  var feedbackSix = new Swiper(".feedback__active-6", {
-    slidesPerView: 1,
-    spaceBetween: 0,
-    loop: true,
-    autoplay: {
-        delay: 3000,
-    },
-    pagination: {
-        el: ".bd-swiper-dot",
-        clickable: true,
-    },
-  });
-
-  var feedbackSeven = new Swiper(".feedback__active-7", {
-    slidesPerView: 1,
-    spaceBetween: 0,
-    loop: true,
-    autoplay: {
-        delay: 3000,
-    },
-    navigation: {
-        nextEl: ".common__slider-button-next",
-        prevEl: ".common__slider-button-prev",
-    },
-    pagination: {
-        el: ".bd-swiper-dot",
-        clickable: true,
     },
   });
 
