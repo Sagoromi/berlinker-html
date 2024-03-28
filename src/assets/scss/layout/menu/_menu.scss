@@ -136,13 +136,11 @@
             /* mega menu start */
             & .mega-menu{
                 position: absolute;
-                top: 100%;
+                top: 101.7%;
                 left: 50%;
                 padding: 30px 35px 30px;
-                background: #0d0d0d;
-                @include light {
-                    background-color: var(--bd-common-white);
-                }
+                box-shadow: 0 20px 30px rgba(1, 15, 28, 0.1);
+                background: var(--bd-common-white);
                 visibility: hidden;
                 opacity: 0;
                 border: 1px solid var(--bd-border-primary);
@@ -199,11 +197,9 @@
                                 margin-bottom: 0;
                             }
                             & a{
-                                font-size: 16px;
+                                font-size: 15px;
                                 color: var(--bd-text-body);
-                                @include light {
-                                    color: var(--bd-text-body);
-                                }
+
                                 padding: 0;
                                 position: relative;
                                 &::before{

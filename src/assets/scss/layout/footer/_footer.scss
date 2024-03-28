@@ -46,6 +46,12 @@
 }
 
 // Footer style 
+.footer__content {
+	.title {
+		color: var(--bd-common-white);
+		font-weight: var(--bd-fw-sbold);
+	}
+}
 .footer-bg {
 	background-color: #07041B;
 }
@@ -57,6 +63,7 @@
 .footer__content {
 	& > P {
 		margin-bottom: 35px;
+		color: var(--bd-common-white)
 	}
 }
 .footer__widget-title {

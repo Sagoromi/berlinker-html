@@ -11,10 +11,11 @@
 	inset-inline-end: 0;
 	inset-inline-start: 0;
 	width: 100%;
-	-webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-	animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-	background: var(--bd-bg-1);
-	border-top: 0;
+	background: rgba(255, 255, 255, 0.9);
+	-webkit-animation: fadeInDown 300ms ease-in-out 0s normal none 1 running;
+	animation: fadeInDown 300ms ease-in-out 0s normal none 1 running;
+	box-shadow: 0px 20px 40px rgba(37, 9, 62, 0.1);
+	backdrop-filter: blur(16px)
 }
 .header-transparent {
 	position: absolute;

@@ -1,0 +1,50 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.3 Experiences css
+/*----------------------------------------*/
+.experiences-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.experiences__info {
+    margin-top: 40px;
+    .list {
+        ul {
+            display: inline-flex;
+            gap: 20px;
+            flex-direction: column;
+            li {
+                list-style: none;
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                padding: 20px 20px;
+                font-size: 18px;
+                font-weight: var(--bd-fw-sbold);
+                color: var(--bd-common-white);
+                background: #574DAA;
+                box-shadow: 0px 0px 32px rgba(108, 59, 235, 0.1);
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.experiences__thumb {
+    position: absolute;
+    right: 0;
+    img {
+        border-radius: 30px 0px 0 30px;
+    }
+}
+.experiences-shapes {
+    .shape-one {
+        position: absolute;
+        top: 38px;
+        left: 23px;
+    }
+}
